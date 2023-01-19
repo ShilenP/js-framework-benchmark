@@ -1,0 +1,19 @@
+{
+  "name": "benchmark",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-dev": "vite",
+    "build-prod": "vite build"
+  },
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "shillax"
+  },
+  "dependencies": {
+    "shillax": "^0.3.1"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  }
+}
